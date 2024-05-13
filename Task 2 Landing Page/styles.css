@@ -5,7 +5,7 @@
 }
 
 .hero p {
-  font-size: 30px !important; /* Adjust the font size as needed */
+  font-size: 30px !important; 
 }
 .hero h1{
   font-size: 40px !important;
@@ -23,7 +23,7 @@
   position: relative;
   color: #fff;
   text-align: center;
-  min-height: 100vh; /* Changed height to min-height */
+  min-height: 100vh; 
 }
 
 .hero .container {
@@ -46,32 +46,48 @@
 .courses {
   padding: 80px 0;
   min-height: 100vh;
-  background-image: url('https://i.pinimg.com/originals/13/5d/cf/135dcf0764e454da522b8880ad158f05.jpg') !important;
+  background-image: url('https://i.pinimg.com/originals/13/5d/cf/135dcf0764e454da522b8880ad158f05.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   display: flex;
-  justify-content: center; /* Align cards horizontally in the center */
-  align-items: center; /* Align cards vertically in the center */
+  justify-content: center; 
+  align-items: center; 
 }
 
-/* Course Card */
 .course-card {
   border: none;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
-  width: 100%; /* Ensure cards take up full width */
-  max-width: 300px; /* Set maximum width for better responsiveness */
+  box-shadow: 0 10px 20px rgba(255, 0, 0, 0.599); /* Added shadow */
+  transition: transform 1.0s ease, box-shadow 0.3s ease; /* Added transition */
+  width: 100%; 
+  max-width: 300px; 
+  border-radius: 30px;
+  background-color: rgba(255, 255, 255, 0.97) !important;
 }
 
-/* Additional styles for card body */
+.course-card:hover {
+  transform: translateY(-5px); /* Added hover effect */
+  box-shadow: 0 30px 40px rgba(255, 255, 255, 0.2); /* Added hover shadow */
+}
+
 .course-card .card-body {
   text-align: center;
 }
 
 .course-card i {
   color: #007bff;
+}
+
+/* Added hover effect for card title and text */
+.course-card .card-title, 
+.course-card .card-text {
+  transition: color 0.3s ease;
+}
+
+.course-card:hover .card-title, 
+.course-card:hover .card-text {
+  color: #333;
 }
 
 /* Campuses Section */
@@ -82,17 +98,19 @@
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-color: #f8f9fa; /* Fallback color */
+  background-color: #f8f9fa; 
 }
 
 .campus-card {
   border: none;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
+  border-radius: 10px;
 }
 
 .campus-card:hover {
-  transform: translateY(-10px);
+  transition: transform 0.3s ease;
+  transform: translateY(-30px);
 }
 
 .campus-card .card-img-top {
@@ -128,7 +146,7 @@
 
 /* Footer */
 footer {
-  background-color: #1a1a1a;
+  background-color: #000000b6;
   color: #fff;
 }
 
@@ -165,9 +183,11 @@ h2 {
   font-weight: 1000px;
   font-size: 50px;
 }
-
-@media (min-width: 768px) {
-  .courses {
-    padding: 100px 0; /* Increase padding for larger screens */
+@media (max-width: 767px) {
+  .hero h1 {
+    font-size: 32px !important;
+  }
+  .hero p {
+    font-size: 20px !important;
   }
 }
