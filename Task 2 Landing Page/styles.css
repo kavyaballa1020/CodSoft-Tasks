@@ -4,6 +4,14 @@
   text-transform: uppercase;
 }
 
+.hero p {
+  font-size: 30px !important; /* Adjust the font size as needed */
+}
+.hero h1{
+  font-size: 40px !important;
+  color: red;
+  font-weight: bold;
+}
 /* Hero Section */
 .hero {
   padding: 0;
