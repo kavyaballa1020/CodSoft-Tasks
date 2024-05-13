@@ -8,9 +8,9 @@ body {
   }
   
   .calculator {
-    background-color: rgba(0, 0, 0, 0.8);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
-    border-radius: 15px;
+    background-color: black;
+    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.59);
+    border-radius: 25px;
     padding: 30px;
     max-width: 400px;
     margin: 50px auto;
@@ -23,11 +23,11 @@ body {
     text-align: right;
     padding: 15px;
     border: none;
-    background-color: rgba(255, 255, 255, 0.2);
-    color: #fff;
+    background-color: rgba(255, 255, 255, 0.473);
+    color: #000000;
     border-radius: 10px;
     margin-bottom: 30px;
-    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.39);
   }
   
   .btn {
@@ -35,7 +35,7 @@ body {
     padding: 20px;
     border-radius: 10px;
     transition: background-color 0.3s, box-shadow 0.3s, transform 0.3s;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px rgba(251, 249, 249, 0.2);
   }
   
   .btn-secondary {
@@ -54,24 +54,26 @@ body {
   }
   
   .btn-danger {
-    background-color: #dc3545;
+    background-color: #fb132a;
     color: #fff;
   }
   
   .btn:hover {
-    background-color: #555;
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    background-color: #bebbbb;
+    box-shadow: 0 6px 12px rgba(196, 196, 196, 0.664);
     transform: translateY(-2px);
+    color: black;
   }
   
   .btn-primary:hover {
-    background-color: #0056b3;
+    background-color: #66adf9;
   }
   
   .btn-success:hover {
-    background-color: #1e7e34;
+    background-color: #00ff3c;
   }
   
   .btn-danger:hover {
-    background-color: #c82333;
+    background-color: #fd2525;
+    color: black;
   }
