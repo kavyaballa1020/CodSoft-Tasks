@@ -104,7 +104,7 @@ nav .navbar {
 
 .navbar .nav-item .nav-link{
   position: relative;
-  color: #f1fd89;
+  color: #00ff3c;
   display: inline-block;
   line-height: 1.5;
   text-align: center;
@@ -118,7 +118,7 @@ nav .navbar {
   margin-left: 10px;
 }
 .navbar .nav-item .nav-link:hover{
-  color: rgb(8, 254, 4);
+  color: rgb(233, 254, 4);
 }
 .navbar .nav-item .nav-link::before {
   content: "";
@@ -183,7 +183,7 @@ nav .navbar {
   color: rgb(255, 255, 255);
   font-size: 50px;
   font-weight: 600;
-  margin-left: 3px;
+  margin-left: -3px;
 }
 
 .home .pre-style {
@@ -355,6 +355,13 @@ section p:hover{
   align-items: center; 
   justify-content: center; 
   height: 100vh;
+    padding: 50px 0;
+    background-image: url('https://cdn.wallpapersafari.com/50/98/xzOh09.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Add this line to make the background fixed */
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .skills .content {
@@ -362,10 +369,10 @@ section p:hover{
 }
 
 .skills .svg-icon {
-  width: 80px;
-  height: 80px;
+  width: 100px;
+  height: 100px;
   padding: 12px;
-  border: 2px solid rgba(240, 135, 135, 0.833);
+  border: 2px solid rgba(26, 255, 0, 0.833);
   border-radius: 16px;
   margin-bottom: 10px;
   display: flex;
@@ -376,8 +383,8 @@ section p:hover{
 .svg-icon:hover {
   transform: scale(1.1); 
   filter: brightness(1.2); 
-  box-shadow: 0 0 10px rgba(231, 212, 212, 0.447); 
-  border: 2px solid rgba(188, 191, 4, 0.833);
+  box-shadow: 0 0 4px 4px rgba(0, 255, 0, 0.447); 
+  border: 2px solid rgba(4, 255, 0, 0.833);
 
 }
 
@@ -397,10 +404,23 @@ section p:hover{
 
 /* Projects section */
 
-
+.projects{
+  padding: 40px 0;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center; 
+  height: 100vh;
+    padding: 50px 0;
+    background-image: url('https://cdn.wallpapersafari.com/50/98/xzOh09.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Add this line to make the background fixed */
+    font-family: 'Ubuntu', sans-serif;
+}
 .projects-details .card {
   transition: all 0.3s ease;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 4px 8px rgba(0, 255, 51, 0.1);
   margin-bottom: 20px;
   border-radius: 25px;
   display: flex;
@@ -412,8 +432,10 @@ section p:hover{
 
 .projects-details .card:hover {
   transform: translateY(-5px);
-  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 8px 16px rgba(0, 255, 51, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
 .projects img{
   max-width: 50%;
   height: auto;
@@ -429,7 +451,7 @@ section p:hover{
 
 /* Contact Section */
 .contact {
-  background: url('https://png.pngtree.com/thumb_back/fh260/background/20210426/pngtree-abstract-gradient-crystal-texure-background-in-dark-green-color-image_671444.jpg');
+  background-image: url('https://cdn.wallpapersafari.com/50/98/xzOh09.jpg');
   padding: 50px 0;
   color: white;
 }
@@ -441,9 +463,9 @@ section p:hover{
 .contact form {
   
   padding: 30px;
-  border: 2px solid rgba(39, 154, 242, 0.667);
+  border: 2px solid rgba(0, 253, 51, 0.667);
   border-radius: 10px;
-  box-shadow: 0px 0px 20px rgba(238, 236, 236, 0.308);
+  box-shadow: 0px 0px 3px 3px rgba(0, 255, 38, 0.308);
 }
 
 .contact .form-group {
@@ -459,7 +481,7 @@ section p:hover{
 .contact form textarea {
   width: 100%;
   padding: 10px;
-  border: 1px solid #ccc;
+  border: 3px solid #29b7f0;
   border-radius: 5px;
 }
 
