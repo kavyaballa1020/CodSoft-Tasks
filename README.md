@@ -6,7 +6,7 @@ Welcome to my repository containing solutions to the tasks assigned during my we
 
 ### Level 1 - Task 1: Portfolio Website
 
-![Task 1 Screenshot](link_to_task_1_screenshot)
+![Task 1 Screenshot](Screenshots/Portfolio.PNG)
 
 **Description:** For this task, I developed a portfolio website showcasing my skills and projects. The website was crafted using the following technologies:
 
@@ -17,7 +17,7 @@ Welcome to my repository containing solutions to the tasks assigned during my we
 
 ### Level 1 - Task 2: Landing Page
 
-![Task 2 Screenshot](link_to_task_2_screenshot)
+![Task 2 Screenshot](Screenshots/Landing%20page.PNG)
 
 **Description:** The task involved creating a captivating landing page for a product or service. Technologies utilized include:
 
@@ -28,7 +28,7 @@ Welcome to my repository containing solutions to the tasks assigned during my we
 
 ### Level 1 - Task 3: Calculator Web Application
 
-![Task 3 Screenshot](link_to_task_3_screenshot)
+![Task 3 Screenshot](Screenshots/Calculator.PNG)
 
 **Description:** Developed a calculator web application capable of performing basic arithmetic operations. The application was built using:
 
