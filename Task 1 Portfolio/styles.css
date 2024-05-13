@@ -9,9 +9,11 @@
   scroll-behavior: smooth;
   font-family: 'Poppins', sans-serif;
 }
-body{
-  background: url('https://wallpapers.com/images/featured/dark-5u7v1sbwoi6hdzsb.jpg');
+body {
+  overflow-x: hidden;
+  overflow-y: auto;
 }
+
 
 /* Scrollbar styles */
 
@@ -22,13 +24,13 @@ body{
     background: #d6d2c9;
 }
 ::-webkit-scrollbar-thumb {
-    background: #0e45dd;
+    background: #0edd23;
     border-radius: 12px;
     transition: all 0.3s ease;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #4070f4;
+    background: #016507;
 }
 
 /* navbar */
@@ -65,7 +67,7 @@ body{
   background-color: inherit;
   margin-left: 20px;
   &:hover {
-    color: #0d2e89;
+    color: #1eff00;
   }
 }
 
@@ -102,7 +104,7 @@ nav .navbar {
 
 .navbar .nav-item .nav-link{
   position: relative;
-  color: #edb3b3;
+  color: #f1fd89;
   display: inline-block;
   line-height: 1.5;
   text-align: center;
@@ -116,7 +118,7 @@ nav .navbar {
   margin-left: 10px;
 }
 .navbar .nav-item .nav-link:hover{
-  color: rgb(4, 158, 254);
+  color: rgb(8, 254, 4);
 }
 .navbar .nav-item .nav-link::before {
   content: "";
@@ -134,14 +136,18 @@ nav .navbar {
 }
 
 /* home */
+
 .home {
   height: 100vh;
   width: 100%;
+  background-image: url('https://cdn.wallpapersafari.com/50/98/xzOh09.jpg');
+  background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
+  background-attachment: fixed; /* Add this line to make the background fixed */
   font-family: 'Ubuntu', sans-serif;
 }
+
 
 .home .home-content {
   width: 90%;
@@ -185,7 +191,7 @@ nav .navbar {
 }
 
 .home .pre-style:hover {
-  color: #00277c;
+  color: #f2ff00;
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 
@@ -222,15 +228,15 @@ nav .navbar {
 }
 
 .linkedin-link {
-  color: #00a6ff;
+  color: #ffffff;
 }
 
 .facebook-link {
-  color: #0051ff;
+  color: #ffffff;
 }
 
 .instagram-link {
-  color: #9900ff;
+  color: #ffffff;
 }
 
 .home .social-links a:hover {
@@ -239,7 +245,7 @@ nav .navbar {
 
 .home .social-links a:hover i {
   transform: scale(1.1);
-  color: #06d5f5;
+  color: #06f566;
 }
 
 /* About Section */
@@ -292,6 +298,14 @@ section p:hover{
 }
 .about{
   padding: 50px 0;
+  background-image: url('https://cdn.wallpapersafari.com/50/98/xzOh09.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* Add this line to make the background fixed */
+  font-family: 'Ubuntu', sans-serif;
+  height: 100vh;
+
 }
 .about-title{
   font-size: 2.5rem;
@@ -314,6 +328,23 @@ section p:hover{
   border-radius: 20px;
   padding: 20px;
 
+}
+.btn-download {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #00ff66; /* Change to your desired button color */
+  color: #fff; /* Change to your desired text color */
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  align-items: center;
+}
+
+.btn-download:hover {
+  background-color: #6aff00;
+  text-decoration: none;
+  color: white;
+  /* Change to your desired button hover color */
 }
 
 /* Skills section */
@@ -398,7 +429,7 @@ section p:hover{
 
 /* Contact Section */
 .contact {
-  background: url('https://wallpapers.com/images/featured/dark-5u7v1sbwoi6hdzsb.jpg');
+  background: url('https://png.pngtree.com/thumb_back/fh260/background/20210426/pngtree-abstract-gradient-crystal-texure-background-in-dark-green-color-image_671444.jpg');
   padding: 50px 0;
   color: white;
 }
