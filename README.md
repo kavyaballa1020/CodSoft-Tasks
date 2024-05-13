@@ -1,6 +1,3 @@
-Certainly! Here's the Markdown code for your README.md file:
-
-```markdown
 # CodSoft Web Development Internship Tasks
 
 Welcome to my repository showcasing solutions to the tasks I completed during my web development internship at CodSoft. Below, you'll find detailed descriptions and screenshots of each task.
@@ -40,4 +37,3 @@ During my internship at CodSoft, I immersed myself in various aspects of web dev
 - **Future Goals:** Inspired by my internship experience, I aspire to explore back-end technologies and frameworks like React and Angular, with the aim of building more dynamic and scalable web applications.
 
 Thank you for visiting my repository! If you have any questions
-```
