@@ -144,7 +144,7 @@ nav .navbar {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-attachment: fixed; /* Add this line to make the background fixed */
+  background-attachment: fixed; 
   font-family: 'Ubuntu', sans-serif;
 }
 
@@ -302,7 +302,7 @@ section p:hover{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-attachment: fixed; /* Add this line to make the background fixed */
+  background-attachment: fixed; 
   font-family: 'Ubuntu', sans-serif;
   height: 100vh;
 
@@ -332,8 +332,8 @@ section p:hover{
 .btn-download {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #00ff66; /* Change to your desired button color */
-  color: #fff; /* Change to your desired text color */
+  background-color: #00ff66; 
+  color: #fff; 
   text-decoration: none;
   border-radius: 5px;
   transition: background-color 0.3s ease;
@@ -344,7 +344,6 @@ section p:hover{
   background-color: #6aff00;
   text-decoration: none;
   color: white;
-  /* Change to your desired button hover color */
 }
 
 /* Skills section */
@@ -360,7 +359,7 @@ section p:hover{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-attachment: fixed; /* Add this line to make the background fixed */
+    background-attachment: fixed; 
     font-family: 'Ubuntu', sans-serif;
 }
 
@@ -415,7 +414,7 @@ section p:hover{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-attachment: fixed; /* Add this line to make the background fixed */
+    background-attachment: fixed; 
     font-family: 'Ubuntu', sans-serif;
 }
 .projects-details .card {
