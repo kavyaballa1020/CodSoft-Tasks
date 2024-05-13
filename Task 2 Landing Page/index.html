@@ -11,7 +11,6 @@
 </head>
 <body>
 
-  <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
       <a class="navbar-brand" href="#">
@@ -24,73 +23,77 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#hero-section">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Courses</a>
+            <a class="nav-link" href="#courses-section">Courses</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Campuses</a>
+            <a class="nav-link" href="#campuses-section">Campuses</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="#contact-section">Contact</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
+  
 
-  <!-- Hero Section -->
-  <section class="hero" style="background-image: url('https://images.unsplash.com/photo-1585782078318-ef0c8d967264?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80');">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6">
-          <h1>Unleash Your Potential</h1>
-          <p>Discover world-class education at Centurion University of Technology and Management.</p>
-          <a href="#" class="btn btn-primary btn-lg">Apply Now</a>
-        </div>
+
+  <!-- Hero Section --><!-- Hero Section -->
+<section id="hero-section" class="hero d-flex align-items-center justify-content-center">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h1>Unleash Your Potential</h1>
+        <p>Discover world-class education at Centurion University of Technology and Management.</p>
+        <a id="courses-section" class="btn btn-primary btn-lg">Apply Now</a>
       </div>
     </div>
-  </section>
+  </div>
+</section>
+
 
   <!-- Courses Section -->
-  <section class="courses">
-    <div class="container">
-      <h2 class="text-center mb-5">Our Courses</h2>
-      <div class="row">
-        <div class="col-md-4 mb-4">
-          <div class="card course-card">
-            <div class="card-body">
-              <i class="fas fa-laptop-code fa-3x mb-3"></i>
-              <h5 class="card-title">Computer Science Engineering</h5>
-              <p class="card-text">Explore the world of software development, algorithms, and cutting-edge technologies.</p>
-            </div>
+  <!-- Courses Section --><section id="courses-section" class="courses">
+  <div class="container">
+    <h2 class="text-center mb-5">Our Programs</h2>
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <div class="card course-card">
+          <div class="card-body">
+            <i class="fas fa-laptop-code fa-3x mb-3"></i>
+            <h5 class="card-title">B.Tech in Computer Science and Engineering</h5>
+            <p class="card-text">Embark on an exciting journey in the world of computer science and engineering. Explore cutting-edge technologies, develop software solutions, and master the art of programming. Our comprehensive curriculum covers topics such as algorithms, data structures, software engineering, computer networks, and emerging fields like artificial intelligence and machine learning.</p>
           </div>
         </div>
-        <div class="col-md-4 mb-4">
-          <div class="card course-card">
-            <div class="card-body">
-              <i class="fas fa-robot fa-3x mb-3"></i>
-              <h5 class="card-title">Artificial Intelligence & Machine Learning</h5>
-              <p class="card-text">Dive into the fascinating fields of AI and ML, shaping the future of technology.</p>
-            </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card course-card">
+          <div class="card-body">
+            <i class="fas fa-microchip fa-3x mb-3"></i>
+            <h5 class="card-title">B.Sc in Electronics and Communication Engineering (EEC)</h5>
+            <p class="card-text">Embark on a journey into the world of electronics and communication engineering. Learn to design and develop cutting-edge electronic systems, communication networks, and embedded systems. Our program covers topics like digital electronics, signal processing, telecommunication systems, and emerging technologies like 5G, IoT, and cybersecurity.</p>
           </div>
         </div>
-        <div class="col-md-4 mb-4">
-          <div class="card course-card">
-            <div class="card-body">
-              <i class="fas fa-cogs fa-3x mb-3"></i>
-              <h5 class="card-title">Mechanical Engineering</h5>
-              <p class="card-text">Design and develop innovative mechanical systems and products.</p>
-            </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card course-card">
+          <div class="card-body">
+            <i class="fas fa-cogs fa-3x mb-3"></i>
+            <h5 class="card-title">Diploma in Mechanical Engineering</h5>
+            <p class="card-text">Unleash your creativity and problem-solving skills in the field of mechanical engineering. Design and develop innovative mechanical systems, products, and manufacturing processes. Our program covers topics such as thermodynamics, fluid mechanics, materials science, computer-aided design (CAD), and sustainable engineering practices.</p>
           </div>
         </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
+
 
   <!-- Campuses Section -->
-  <section class="campuses">
+  <section id="campuses-section" class="campuses">
     <div class="container">
       <h2 class="text-center mb-5">Our Campuses</h2>
       <div class="row">
@@ -126,7 +129,7 @@
   </section>
 
   <!-- Contact Section -->
-  <section class="contact">
+  <section id="contact-section" class="contact">
     <div class="container">
       <h2 class="text-center mb-5">Contact Us</h2>
       <div class="row">
@@ -183,7 +186,7 @@
 </div>
 </footer>
 
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 <script src="script.js"></script>

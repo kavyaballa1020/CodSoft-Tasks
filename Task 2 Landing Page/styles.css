@@ -3,28 +3,19 @@
   font-weight: 500;
   text-transform: uppercase;
 }
-.body{
-  background: url('https://i.pinimg.com/originals/13/5d/cf/135dcf0764e454da522b8880ad158f05.jpg') !important;
-}
+
 /* Hero Section */
 .hero {
-  padding: 150px 0;
+  padding: 0;
+  background-image: url('https://i.pinimg.com/originals/13/5d/cf/135dcf0764e454da522b8880ad158f05.jpg') !important;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   position: relative;
   color: #fff;
   text-align: center;
-}
-
-.hero::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
+  min-height: 100vh; /* Changed height to min-height */
 }
 
 .hero .container {
@@ -46,18 +37,27 @@
 /* Courses Section */
 .courses {
   padding: 80px 0;
+  min-height: 100vh;
+  background-image: url('https://i.pinimg.com/originals/13/5d/cf/135dcf0764e454da522b8880ad158f05.jpg') !important;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center; /* Align cards horizontally in the center */
+  align-items: center; /* Align cards vertically in the center */
 }
 
+/* Course Card */
 .course-card {
   border: none;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
+  width: 100%; /* Ensure cards take up full width */
+  max-width: 300px; /* Set maximum width for better responsiveness */
 }
 
-.course-card:hover {
-  transform: translateY(-10px);
-}
-
+/* Additional styles for card body */
 .course-card .card-body {
   text-align: center;
 }
@@ -69,7 +69,12 @@
 /* Campuses Section */
 .campuses {
   padding: 80px 0;
-  background-color: #f8f9fa;
+  background-image: url('https://i.pinimg.com/originals/13/5d/cf/135dcf0764e454da522b8880ad158f05.jpg') !important;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: #f8f9fa; /* Fallback color */
 }
 
 .campus-card {
@@ -90,14 +95,27 @@
 /* Contact Section */
 .contact {
   padding: 80px 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image: url('https://i.pinimg.com/originals/13/5d/cf/135dcf0764e454da522b8880ad158f05.jpg') !important;
+}
+
+.contact form {
+  border: 2px solid red;
+  padding: 50px;
+  border-radius: 30px;
+  box-shadow: 0 0 10px 10px rgba(238, 16, 16, 0.53);
 }
 
 .form-control {
-  border-radius: 0;
+  border-radius: 10px;
+  border: 2px solid blue;
 }
 
 .btn-primary {
-  border-radius: 0;
+  border-radius: 10px;
 }
 
 /* Footer */
@@ -131,4 +149,17 @@ footer .fab {
 
 footer .fab:hover {
   color: #fff;
+}
+
+h2 {
+  color: red;
+  text-shadow: 2px 2px 4px  rgba(251, 182, 182, 0.571);
+  font-weight: 1000px;
+  font-size: 50px;
+}
+
+@media (min-width: 768px) {
+  .courses {
+    padding: 100px 0; /* Increase padding for larger screens */
+  }
 }
